@@ -1,0 +1,1 @@
+A simple Ghost theme.
