@@ -1,4 +1,4 @@
-A simple Ghost theme.
+A simple and pure Ghost theme.
 
 ## Copyright & License
 
