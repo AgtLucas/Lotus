@@ -1,0 +1,25 @@
+{
+  "name": "Lotus",
+  "version": "0.0.0",
+  "description": "A simple and pure Ghost theme",
+  "author": "AgtLucas",
+  "homepage": "http://agtlucas.com",
+  "keywords": [
+    "lotus",
+    "ghost theme",
+    "ghost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AgtLucas/Lotus.git"
+  },
+  "bugs": "https://github.com/AgtLucas/Lotus/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/AgtLucas/Lotus/master/LICENSE"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
