@@ -22,8 +22,17 @@ module.exports = function (grunt) {
       dist: {
         config: 'config.rb'
       }
+    },
+
+    watch: {
+      compass: {
+        files: ['<% meta.pathSass %>/**/*.{scss,sass}'],
+        tasks: ['compass']
+      }
     }
 
   });
+
+  grunt.registerTask('default', ['watch']);
 
 };
