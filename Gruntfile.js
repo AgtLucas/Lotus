@@ -26,7 +26,7 @@ module.exports = function (grunt) {
 
     watch: {
       compass: {
-        files: ['<% meta.pathSass %>/**/*.{scss,sass}'],
+        files: ['<%= meta.pathSass %>/**/*.{scss,sass}'],
         tasks: ['compass']
       }
     }
