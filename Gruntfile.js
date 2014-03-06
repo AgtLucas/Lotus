@@ -25,6 +25,10 @@ module.exports = function (grunt) {
         }
       }
     },
+    
+    // TODO: Uglify task
+    
+    // TODO: Imagemin task
 
     watch: {
       compass: {
