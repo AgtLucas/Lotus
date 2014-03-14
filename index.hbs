@@ -9,6 +9,19 @@
   </div>
 </header>
 
-{{#foreach posts}}
-{{! Posts }}
-{{/foreach}}
+<main class="content" role="main">
+  {{#foreach posts}}
+  {{! Posts }}
+  <article class="post-content {{post_class}}">
+    <header class="post-header">
+      <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MM YYYY"}}</time> {{tags prefix="on "}}</span>
+    </header>
+    <section class="post-excerpt">
+      <p>{{excerpt}}&hellip;</p>
+    </section>
+  </article>
+  {{/foreach}}
+
+  {{!! Previous/Next links }}
+  {{pagination}}
+</main>
