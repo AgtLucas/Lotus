@@ -1,4 +1,20 @@
 {{! Post file }}
 {{!< default}}
 
-<main class="contet" role="main"></main>
+<main class="contet" role="main">
+
+  <article class="{{post_class}}">
+
+    <header class="post-header">
+      <a href="" class="blog-logo">
+        {{#if @blog.logo}}
+          <img src="{{@blog.logo}}" alt="Blog..">
+        {{else}}
+          <span class="blog-title">{{@blog.title}}</span>
+        {{/if}}
+      </a>
+    </header>
+
+  </article>
+
+</main>
