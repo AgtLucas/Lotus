@@ -1,2 +1,18 @@
 {{! Page file }}
 {{!< default}}
+
+<main class="content" role="main">
+  <article class="page-content {{post_class}}">
+
+    <header class="post-header">
+      <a href="" class="blog-logo">
+        {{#if @blog.logo}}
+          <img src="{{@blog.logo}}" alt="Blog..">
+        {{else}}
+          <span class="blog-title">{{@blog.title}}</span>
+        {{/if}}
+      </a>
+    </header>
+
+  </article>
+</main>
