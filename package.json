@@ -20,7 +20,9 @@
       "url": "https://raw.github.com/AgtLucas/Lotus/master/LICENSE"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
   "devDependencies": {
     "grunt-contrib-compass": "^0.7.2",
     "time-grunt": "^0.2.10",
