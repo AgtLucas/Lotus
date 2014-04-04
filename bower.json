@@ -1,5 +1,8 @@
 {
   "name": "Lotus",
   "version": "0.0.0",
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "requirejs": "~2.1.11"
+  }
 }
