@@ -5,5 +5,10 @@
 @import "helpers/helpers";
 @import "helpers/colors";
 
-@import "layout/header";
-@import "layout/footer";
+@import "components/header";
+@import "components/layout-default";
+@import "components/footer";
+
+@import "views/index";
+@import "views/page";
+@import "views/post";
