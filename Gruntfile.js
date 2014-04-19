@@ -21,13 +21,14 @@ module.exports = function (grunt) {
     compass: {
       dist: {
         options: {
+          require: 'susy',
           config: 'config.rb'
         }
       }
     },
-    
+
     // TODO: Uglify task
-    
+
     // TODO: Imagemin task
 
     watch: {
